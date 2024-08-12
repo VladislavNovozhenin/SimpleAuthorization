@@ -1,0 +1,43 @@
+@import "../../../styles/variables.scss";
+
+.registration {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: $grey3;
+  &__title {
+    margin-bottom: 25px;
+    font-weight: 600;
+    font-size: 28px;
+    color: $green2;
+  }
+  &__input {
+    margin-bottom: 25px;
+    padding: 5px 0;
+    background-color: $grey3;
+    border: none;
+    border-bottom: 2px solid $green2;
+    font-size: 18px;
+    font-weight: 600;
+    color: $green2;
+    &::placeholder {
+      color: $green2;
+    }
+    &:focus {
+    outline: none;
+    }
+  }
+  &__btn {
+    display: flex;
+    margin-left: auto;
+    padding: 10px 40px;
+    font-size: 18px;
+    background-color: $green2;
+    border-radius: 10px;
+    color: $grey3;
+  }
+}
+
